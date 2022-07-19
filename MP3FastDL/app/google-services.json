@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "708009751983",
+    "firebase_url": "https://mp3-fast-dl.firebaseio.com",
+    "project_id": "mp3-fast-dl",
+    "storage_bucket": "mp3-fast-dl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:708009751983:android:af1f57a11576597fe1eb5a",
+        "android_client_info": {
+          "package_name": "com.example.mp3fastdl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "708009751983-ar6lejkspksj3j49jnmflq7e7gbn01pb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.mp3fastdl",
+            "certificate_hash": "ef6b384b981429466dd4a0b79b91a47140d34359"
+          }
+        },
+        {
+          "client_id": "708009751983-3ctgrpve8v9rc6128eeih49t90ssb3g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyAyHMgSLA_szOvyjGE43h7aFXSeGgP8I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "708009751983-3ctgrpve8v9rc6128eeih49t90ssb3g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/wallpaper"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".myplaylist">
+
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="0dp"
+        android:layout_height="560dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/S1001"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ab67616d0000b273bb178b1417ec83aedc0ba972"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/txtTitle1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="26dp"
+                android:text="TongHua"
+                android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@+id/S1001"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/textArtist1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="28dp"
+                android:text="Michael Wong"
+                android:textSize="12sp"
+                app:layout_constraintStart_toStartOf="@+id/txtTitle1"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle1" />
+
+            <ImageButton
+                android:id="@+id/S1002"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="30dp"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/photograph"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1001" />
+
+            <TextView
+                android:id="@+id/txtTitle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="38dp"
+                android:text="Photograph"
+                android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@+id/S1002"
+                app:layout_constraintTop_toBottomOf="@+id/textArtist1" />
+
+            <TextView
+                android:id="@+id/textArtist2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="28dp"
+                android:text="Ed Sheeran"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/S1002"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle2" />
+
+            <ImageButton
+                android:id="@+id/S1003"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="32dp"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/someoneuloved"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1002" />
+
+            <TextView
+                android:id="@+id/txtTitle3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="46dp"
+                android:text="Someone You Loved"
+                android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@+id/S1003"
+                app:layout_constraintTop_toBottomOf="@+id/textArtist2" />
+
+            <TextView
+                android:id="@+id/textArtist3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="28dp"
+                android:text="Lewis Capaldi"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/S1003"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle3" />
+
+            <ImageButton
+                android:id="@+id/S1004"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="32dp"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/shuohaobuku"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1003" />
+
+            <TextView
+                android:id="@+id/txtTitle4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="46dp"
+                android:text="Shuo Hao Bu Ku"
+                android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@+id/S1004"
+                app:layout_constraintTop_toBottomOf="@+id/textArtist3" />
+
+            <TextView
+                android:id="@+id/txtArtist4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="28dp"
+                android:text="Jay Chou"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/S1004"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle4" />
+
+            <ImageButton
+                android:id="@+id/S1005"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="26dp"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/download"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1004" />
+
+            <TextView
+                android:id="@+id/txtTitle5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="38dp"
+                android:text="RuGuoYuZhiHou"
+                android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@+id/S1005"
+                app:layout_constraintTop_toBottomOf="@+id/txtArtist4" />
+
+            <TextView
+                android:id="@+id/txtArtist5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="28dp"
+                android:text="Eric Chou"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/S1005"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle5" />
+
+            <ImageButton
+                android:id="@+id/S1006"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="26dp"
+                android:onClick="handleSelection"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ab67616d0000b27328c8c2fcc98775c7ea48b81c"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/S1005"
+                app:layout_constraintVertical_bias="0.271" />
+
+            <TextView
+                android:id="@+id/txtTitle6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="34dp"
+                android:text="BuWeiShuiErZuoDeGe"
+                android:textSize="18sp"
+                app:layout_constraintStart_toEndOf="@+id/S1006"
+                app:layout_constraintTop_toBottomOf="@+id/txtArtist5" />
+
+            <TextView
+                android:id="@+id/txtArtist6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="24dp"
+                android:text="JJ Lin"
+                android:textSize="12sp"
+                app:layout_constraintStart_toEndOf="@+id/S1006"
+                app:layout_constraintTop_toBottomOf="@+id/txtTitle6" />
+
+            <ImageView
+                android:id="@+id/add1"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="28dp"
+                android:contentDescription="S1001"
+                android:onClick="addToFavourite"
+                android:src="@drawable/ic_favorite_black_24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/S1001"/>
+
+            <ImageView
+                android:id="@+id/add2"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="28dp"
+                android:contentDescription="S1002"
+                android:onClick="addToFavourite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/S1002"
+                android:src="@drawable/ic_favorite_black_24dp" />
+
+            <ImageView
+                android:id="@+id/add3"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="28dp"
+                android:contentDescription="S1003"
+                android:onClick="addToFavourite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/S1003"
+                android:src="@drawable/ic_favorite_black_24dp" />
+
+            <ImageView
+                android:id="@+id/add4"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="28dp"
+                android:contentDescription="S1004"
+                android:onClick="addToFavourite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@+id/S1004"
+                android:src="@drawable/ic_favorite_black_24dp" />
+
+            <ImageView
+                android:id="@+id/add5"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="28dp"
+                android:contentDescription="S1005"
+                android:onClick="addToFavourite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/S1005"
+                android:src="@drawable/ic_favorite_black_24dp" />
+
+            <ImageView
+                android:id="@+id/add6"
+                android:layout_width="60dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="28dp"
+                android:contentDescription="S1006"
+                android:onClick="addToFavourite"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="@id/S1006"
+                android:src="@drawable/ic_favorite_black_24dp" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

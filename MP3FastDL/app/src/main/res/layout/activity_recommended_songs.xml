@@ -1,0 +1,1045 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wallpaper"
+    tools:context=".recommended_songs">
+
+
+    <TextView
+        android:id="@+id/textView118"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Recommended"
+        android:textSize="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView118"
+        app:layout_constraintVertical_bias="1.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                android:text="Version 1.0"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.501"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView4" />
+
+            <TextView
+                android:id="@+id/textView52"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="81dp"
+                android:text="Singapore Top 10"
+                android:textSize="30dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView52">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView32"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView33"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b273ba5db46f4b838ef6027e6f96" />
+
+                    <ImageView
+                        android:id="@+id/imageView33"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b2737ed2a6d678a53a5959b2894f" />
+
+                    <ImageView
+                        android:id="@+id/imageView34"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="16dp"
+                        android:onClick="handleSelection1"
+                        app:layout_constraintStart_toEndOf="@+id/imageView32"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b27326c25bf32ac8dcf755e00e8c" />
+
+                    <ImageView
+                        android:id="@+id/imageView35"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="16dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView34"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b273160074c4d30216702688437c" />
+
+                    <ImageView
+                        android:id="@+id/imageView36"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="16dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView35"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b273352fb54206892599dcfbc792" />
+
+                    <ImageView
+                        android:id="@+id/imageView37"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="16dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView36"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b273bb178b1417ec83aedc0ba972" />
+
+                    <ImageView
+                        android:id="@+id/imageView38"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="16dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView37"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b273e8523e7781cf313fc080da5c" />
+
+                    <ImageView
+                        android:id="@+id/imageView39"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="16dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView38"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b2736d4056466fc11f6408be2566" />
+
+                    <ImageView
+                        android:id="@+id/imageView40"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="30dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView41"
+                        app:layout_constraintStart_toEndOf="@+id/imageView39"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b273c5148520a59be191eea16989" />
+
+                    <ImageView
+                        android:id="@+id/imageView41"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="16dp"
+                        android:layout_marginEnd="30dp"
+                        android:onClick="handleSelection1"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/teenagedreams" />
+
+                    <TextView
+                        android:id="@+id/textView54"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="48dp"
+                        android:text="Ed Sheeran"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView33" />
+
+                    <TextView
+                        android:id="@+id/textView55"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="Beautiful People"
+                        app:layout_constraintBottom_toTopOf="@+id/imageView33"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.0" />
+
+                    <TextView
+                        android:id="@+id/textView58"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="Castle On The Hill"
+                        app:layout_constraintStart_toEndOf="@+id/textView55"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView59"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="60dp"
+                        android:text="Ed Sheeran"
+                        app:layout_constraintStart_toEndOf="@+id/textView54"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView32" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:text="Dont Touch My Truck"
+                        app:layout_constraintStart_toEndOf="@+id/textView58"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:text="Tik Tok"
+                        app:layout_constraintStart_toEndOf="@+id/textView59"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView34" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="I'm Yours"
+                        app:layout_constraintStart_toEndOf="@+id/textView60"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="68dp"
+                        android:text="Jason Mraz"
+                        app:layout_constraintStart_toEndOf="@+id/textView61"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView35" />
+
+                    <TextView
+                        android:id="@+id/textView64"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:text="修炼爱情"
+                        app:layout_constraintStart_toEndOf="@+id/textView62"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView65"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="68dp"
+                        android:text="JJ Lin"
+                        app:layout_constraintStart_toEndOf="@+id/textView63"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView36" />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="85dp"
+                        android:text="第一次"
+                        app:layout_constraintStart_toEndOf="@+id/textView64"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView67"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="73dp"
+                        android:text="Michael Wong"
+                        app:layout_constraintStart_toEndOf="@+id/textView65"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView37" />
+
+                    <TextView
+                        android:id="@+id/textView68"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="74dp"
+                        android:text="Superpower"
+                        app:layout_constraintStart_toEndOf="@+id/textView66"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView69"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="37dp"
+                        android:text="Adam Lambert"
+                        app:layout_constraintStart_toEndOf="@+id/textView67"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView38" />
+
+                    <TextView
+                        android:id="@+id/textView70"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="Rolling In The Deep"
+                        app:layout_constraintStart_toEndOf="@+id/textView68"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:text="Adele"
+                        app:layout_constraintStart_toEndOf="@+id/textView69"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView39" />
+
+
+                    <TextView
+                        android:id="@+id/textView72"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:text="High Hopes"
+                        app:layout_constraintStart_toEndOf="@+id/textView70"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView73"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="43dp"
+                        android:text="Panic! At The Disco"
+                        app:layout_constraintStart_toEndOf="@+id/textView71"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView40" />
+
+
+                    <TextView
+                        android:id="@+id/textView74"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="33dp"
+                        android:text="Teenage Dream"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView75"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="56dp"
+                        android:text="Wen Wei"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView41" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="24dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView51">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView42"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/bestsongever" />
+
+                    <ImageView
+                        android:id="@+id/imageView43"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView42"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/storyofmylife" />
+
+                    <ImageView
+                        android:id="@+id/imageView44"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView43"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/midnightmemories" />
+
+                    <ImageView
+                        android:id="@+id/imageView45"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView44"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/youni" />
+
+                    <ImageView
+                        android:id="@+id/imageView46"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView45"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/perfect" />
+
+                    <ImageView
+                        android:id="@+id/imageView47"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="60dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView46"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/whatmakesubeautiful" />
+
+                    <ImageView
+                        android:id="@+id/imageView48"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="90dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView47"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/livewhileweareyoung" />
+
+                    <ImageView
+                        android:id="@+id/imageView49"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView48"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/onething" />
+
+                    <ImageView
+                        android:id="@+id/imageView50"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginEnd="30dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView51"
+                        app:layout_constraintStart_toEndOf="@+id/imageView49"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/stealmygirl" />
+
+                    <ImageView
+                        android:id="@+id/imageView51"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginEnd="30dp"
+                        android:onClick="handleSelection2"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ab67616d0000b273241e4fe75732c9c4b49b94c3" />
+
+                    <TextView
+                        android:id="@+id/textView76"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="32dp"
+                        android:text="Best Song Ever"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+                    <TextView
+                        android:id="@+id/textView77"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="36dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView42" />
+
+                    <TextView
+                        android:id="@+id/textView56"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="34dp"
+                        android:text="Story Of My Life"
+                        app:layout_constraintStart_toEndOf="@+id/textView76"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView57"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="48dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toEndOf="@+id/textView77"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView43" />
+
+                    <TextView
+                        android:id="@+id/textView78"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="20dp"
+                        android:text="Midnight Memories"
+                        app:layout_constraintStart_toEndOf="@+id/textView56"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView79"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="43dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toEndOf="@+id/textView57"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView44" />
+
+                    <TextView
+                        android:id="@+id/textView80"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:text="You And I"
+                        app:layout_constraintStart_toEndOf="@+id/textView78"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toEndOf="@+id/textView79"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView45" />
+
+                    <TextView
+                        android:id="@+id/textView82"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="75dp"
+                        android:text="perfect"
+                        app:layout_constraintStart_toEndOf="@+id/textView80"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView83"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="50dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toEndOf="@+id/textView81"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView46" />
+
+                    <TextView
+                        android:id="@+id/textView84"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="40dp"
+                        android:text="What Makes You Beautiful"
+                        app:layout_constraintStart_toEndOf="@+id/textView82"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="73dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toEndOf="@+id/textView83"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView47" />
+
+                    <TextView
+                        android:id="@+id/textView86"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="35dp"
+                        android:text="Live While We Are Young"
+                        app:layout_constraintStart_toEndOf="@+id/textView84"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="108dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toEndOf="@+id/textView85"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView48" />
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="33dp"
+                        android:text="One Thing"
+                        app:layout_constraintStart_toEndOf="@+id/textView86"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toEndOf="@+id/textView87"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView49" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="63dp"
+                        android:text="Steal My Girl"
+                        app:layout_constraintStart_toEndOf="@+id/textView88"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="45dp"
+                        android:text="One Direction"
+                        app:layout_constraintStart_toEndOf="@+id/textView89"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView50" />
+
+                    <TextView
+                        android:id="@+id/textView92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="33dp"
+                        android:text="Drag Me Down"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView93"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="35dp"
+                        android:text="One Direction"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView51" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+            <TextView
+                android:id="@+id/textView51"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="One Direction"
+                android:textSize="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView2" />
+
+            <TextView
+                android:id="@+id/textView53"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                android:text="Chinese Songs"
+                android:textSize="30dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/horizontalScrollView3" />
+
+            <HorizontalScrollView
+                android:id="@+id/horizontalScrollView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView53">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView52"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/ruguoyuzhihou" />
+
+                    <ImageView
+                        android:id="@+id/imageView53"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView52"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/tashuo" />
+
+                    <ImageView
+                        android:id="@+id/imageView54"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView53"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/yhbzpy" />
+
+                    <ImageView
+                        android:id="@+id/imageView55"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView54"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/zhenmele" />
+
+                    <ImageView
+                        android:id="@+id/imageView56"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView55"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/qcxlsc" />
+
+                    <ImageView
+                        android:id="@+id/imageView57"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView56"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/mfdcb" />
+
+                    <ImageView
+                        android:id="@+id/imageView58"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView57"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/szx" />
+
+                    <ImageView
+                        android:id="@+id/imageView59"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintStart_toEndOf="@+id/imageView58"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/rgwmbcxy" />
+
+                    <ImageView
+                        android:id="@+id/imageView60"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginEnd="30dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toStartOf="@+id/imageView61"
+                        app:layout_constraintStart_toEndOf="@+id/imageView59"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/touming" />
+
+                    <ImageView
+                        android:id="@+id/imageView61"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginEnd="30dp"
+                        android:onClick="handleSelection3"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:srcCompat="@drawable/anjing" />
+
+                    <TextView
+                        android:id="@+id/textView94"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="44dp"
+                        android:text="如果雨之后"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView95"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="52dp"
+                        android:text="Eric Chou"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView52" />
+
+                    <TextView
+                        android:id="@+id/textView96"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="80dp"
+                        android:text="JJ Lin"
+                        app:layout_constraintStart_toEndOf="@+id/textView95"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView53" />
+
+                    <TextView
+                        android:id="@+id/textView97"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="84dp"
+                        android:text="Eric Chou"
+                        app:layout_constraintStart_toEndOf="@+id/textView96"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView54" />
+
+                    <TextView
+                        android:id="@+id/textView98"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="68dp"
+                        android:text="Eric Chou"
+                        app:layout_constraintStart_toEndOf="@+id/textView97"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView55" />
+
+                    <TextView
+                        android:id="@+id/textView99"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="68dp"
+                        android:text="TF Boys"
+                        app:layout_constraintStart_toEndOf="@+id/textView98"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView56" />
+
+                    <TextView
+                        android:id="@+id/textView109"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:text="TF Boys"
+                        app:layout_constraintStart_toEndOf="@+id/textView99"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView57" />
+
+                    <TextView
+                        android:id="@+id/textView110"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="90dp"
+                        android:text="Della"
+                        app:layout_constraintStart_toEndOf="@+id/textView109"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView58" />
+
+                    <TextView
+                        android:id="@+id/textView111"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="88dp"
+                        android:text="Mayday"
+                        app:layout_constraintStart_toEndOf="@+id/textView110"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView59" />
+
+                    <TextView
+                        android:id="@+id/textView112"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="88dp"
+                        android:text="G.E.M."
+                        app:layout_constraintStart_toEndOf="@+id/textView111"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView60" />
+
+                    <TextView
+                        android:id="@+id/textView113"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="47dp"
+                        android:text="Jay Chou"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toBottomOf="@+id/imageView61" />
+
+                    <TextView
+                        android:id="@+id/textView100"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="86dp"
+                        android:text="她说"
+                        app:layout_constraintStart_toEndOf="@+id/textView94"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:text="以后别做朋友"
+                        app:layout_constraintStart_toEndOf="@+id/textView100"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView102"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="70dp"
+                        android:text="怎么了"
+                        app:layout_constraintStart_toEndOf="@+id/textView101"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView103"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="62dp"
+                        android:text="青春修煉手冊"
+                        app:layout_constraintStart_toEndOf="@+id/textView102"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView104"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="62dp"
+                        android:text="魔法城堡"
+                        app:layout_constraintStart_toEndOf="@+id/textView103"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView105"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="79dp"
+                        android:text="手掌心"
+                        app:layout_constraintStart_toEndOf="@+id/textView104"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView106"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="54dp"
+                        android:text="如果我們不曾相遇"
+                        app:layout_constraintStart_toEndOf="@+id/textView105"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView107"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="59dp"
+                        android:text="透明"
+                        app:layout_constraintStart_toEndOf="@+id/textView106"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                    <TextView
+                        android:id="@+id/textView108"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="64dp"
+                        android:text="安靜"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </HorizontalScrollView>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

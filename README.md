@@ -7,6 +7,7 @@ This music app allows users to listen, download and add the music to their favou
 ## Features
 
 - Login validation
+- Registration validation
 - Download music
 - Play music
 - Favourite music
